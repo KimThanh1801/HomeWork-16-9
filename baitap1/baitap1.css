@@ -1,0 +1,50 @@
+
+body {
+    width: 50%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #bbb;
+}
+
+.frm {
+    border: 3px solid red;
+    background: #ccc;
+    width: 100%;
+}
+
+.form-item {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+}
+
+#tbl tr {
+    height: 27px;
+}
+
+#tbl tr th,
+#tbl tr td {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#tbl tr:last-child td {
+    border: none;
+}
