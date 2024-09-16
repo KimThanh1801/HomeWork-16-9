@@ -1,0 +1,27 @@
+body {
+    width: 50%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+#tbl tr {
+    height: 27px;
+}
+#tbl tr th, #tbl tr td {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+button{
+   height: 50px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 10px;
+    column-gap: 10px;
+}

@@ -4,9 +4,9 @@ body {
     box-sizing: border-box;
     margin: 0;
     display: flex;
-    justify-content: center; /* Căn giữa theo chiều ngang */
-    align-items: center; /* Căn giữa theo chiều dọc */
-    width: 100%; /* Chiếm toàn bộ chiều rộng trang */
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
 }
 .container {
     border-top: 3px solid gray;
